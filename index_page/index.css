@@ -236,7 +236,8 @@
 }
 
 .Ben {
-  width: 280px;
+  /* width: 100%; */
+  width:280px;
   min-height: 258.85px;
   height: auto;
   border-radius: 8px;
