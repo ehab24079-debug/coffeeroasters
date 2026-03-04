@@ -24,18 +24,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="../Logo/Tap_icon.png" type="image/x-icon">
+    <!-- Aos.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="../Logo/Tap_icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="styleAboutus.css" />
     <title>About us</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <header>
       <div class="container mt-4 mb-5 d-flex flex-wrap justify-content-between">
         <img src="../Logo/Logo.svg" class="img-fluid LogOO" alt="Logo" />
         <nav class="FirstNav d-none d-md-flex">
           <a href="../index_page/index.html" class="haver">HOME</a>
           <a href="./Aboutus.html" class="haver">ABOUT US</a>
-          <a href="../Subscribe/subscribe.html" class="haver">CREATE YOUR PLAN</a>
+          <a href="../Subscribe/subscribe.html" class="haver"
+            >CREATE YOUR PLAN</a
+          >
         </nav>
         <!-- icon -->
         <i
@@ -67,7 +77,9 @@
             <div class="offcanvas-body">
               <a href="./Aboutus.html">ABOUT US</a>
             </div>
-            <div class="offcanvas-body"><a href="../Subscribe/subscribe.html">CREATE YOUR PLAN</a></div>
+            <div class="offcanvas-body">
+              <a href="../Subscribe/subscribe.html">CREATE YOUR PLAN</a>
+            </div>
           </div>
         </div>
       </div>
@@ -77,6 +89,7 @@
       <div class="herosection">
         <div class="col-12 col-md-9 col-lg-5">
           <div
+            data-aos="zoom-out-up"
             class="content d-flex flex-column gap-4 text-center text-md-start"
           >
             <h1>About Us</h1>
@@ -103,10 +116,15 @@
           <div class="ManImg d-none d-md-flex d-lg-none">
             <img src="../Photos/Man_Tablet.png" alt="barista boy" />
           </div>
-          <div class="ManImg d-none d-lg-flex">
+          <div data-aos="fade-right" class="ManImg d-none d-lg-flex">
             <img src="../Photos/Man_LG.png" alt="barista boy" />
           </div>
-          <div class="BristaText text-center text-md-start d-flex flex-column">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            class="BristaText text-center text-md-start d-flex flex-column"
+          >
             <h2>Our commitment</h2>
             <p>
               We’re built on a simple mission and a commitment to doing good
@@ -129,15 +147,22 @@
     <!-- Quality Section -->
     <section class="container">
       <div class="col-12">
-        <div class="coffee_img d-flex d-md-none justify-content-center">
+        <div
+          data-aos="fade-up-left"
+          class="coffee_img d-flex d-md-none justify-content-center"
+        >
           <img src="../Photos/Latte_Mob.png" alt="" />
         </div>
         <div
+          data-aos="fade-up-left"
           class="coffeeTAB_img d-none d-md-flex d-lg-none justify-content-center"
         >
           <img src="../Photos/Latte_Tablet.png" alt="" />
         </div>
-        <div class="coffeeLG_img d-none d-lg-flex justify-content-end">
+        <div
+          data-aos="fade-up-left"
+          class="coffeeLG_img d-none d-lg-flex justify-content-end"
+        >
           <img class="Largcoff" src="../Photos/Latte_LG.png" alt="" />
         </div>
         <div class="Quality_Sec d-flex justify-content-center">
@@ -162,7 +187,7 @@
           <h2 id="h2ourHead">Our headquarters</h2>
           <div class="Parentour d-flex flex-column flex-md-row">
             <!-- ourCard1 -->
-            <div class="Un_King d-flex flex-column">
+            <div data-aos="zoom-in-down" class="Un_King d-flex flex-column">
               <div
                 class="photoMap img-fluid align-self-center align-self-md-start"
               >
@@ -177,7 +202,7 @@
               </p>
             </div>
             <!-- ourCard2 -->
-            <div class="Canada_A d-flex flex-column">
+            <div data-aos="zoom-in-down" class="Canada_A d-flex flex-column">
               <div
                 class="photoMap img-fluid align-self-center align-self-md-start"
               >
@@ -192,7 +217,7 @@
               </p>
             </div>
             <!-- ourCard3 -->
-            <div class="Austr_alia d-flex flex-column">
+            <div data-aos="zoom-in-down" class="Austr_alia d-flex flex-column">
               <div
                 class="photoMap img-fluid align-self-center align-self-md-start"
               >
@@ -200,33 +225,70 @@
               </div>
               <h2 class="h2_card text-center text-md-start">Australia</h2>
               <p class="text-center text-md-start">
-                36 Swanston Street <br> Kewell <br> Victoria <br> +61 4 9928 3629
+                36 Swanston Street <br />
+                Kewell <br />
+                Victoria <br />
+                +61 4 9928 3629
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="container p-2">
+    <!-- footer -->
+    <footer
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      class="container p-2"
+    >
       <div class="foter">
         <div class="row">
           <div class="col-12 col-md-12">
-            <div class="parentfoot d-flex flex-column flex-md-row align-items-center justify-content-md-between">
-              <div class="LogoFoter"><img src="../Logo/Footer_Logo.png" alt="" /></div>
+            <div
+              class="parentfoot d-flex flex-column flex-md-row align-items-center justify-content-md-between"
+            >
+              <div class="LogoFoter">
+                <img src="../Logo/Footer_Logo.png" alt="" />
+              </div>
               <div class="Navy">
                 <a class="Anlink" href="../index_page/index.html">HOME</a>
                 <a class="Anlink" href="./Aboutus.html">ABOUT US</a>
-                <a class="Anlink" href="../Subscribe/subscribe.html">Create your plan</a>
+                <a class="Anlink" href="../Subscribe/subscribe.html"
+                  >Create your plan</a
+                >
               </div>
               <div class="social_icons">
-                <a class="Icon_HovER" href=""><i class="fa-brands fa-facebook-f" style="color:whitesmoke;"></i></a>
-                <a class="Icon_HovER" href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
-                <a class="Icon_HovER" href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a class="Icon_HovER" href=""
+                  ><i
+                    class="fa-brands fa-facebook-f"
+                    style="color: whitesmoke"
+                  ></i
+                ></a>
+                <a class="Icon_HovER" href=""
+                  ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+                ></a>
+                <a class="Icon_HovER" href=""
+                  ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+                ></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
+    <!-- Aos.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1500,
+        once: false,
+      });
+    </script>
   </body>
 </html>

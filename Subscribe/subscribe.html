@@ -24,7 +24,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="../Logo/Tap_icon.png" type="image/x-icon">
+    <!-- Aos.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="../Logo/Tap_icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./subscribe.css" />
     <title>Subscribe</title>
   </head>
@@ -79,6 +87,7 @@
       <div class="herosection">
         <div class="col-12 col-md-9 col-lg-5">
           <div
+            data-aos="fade-right"
             class="content d-flex flex-column gap-4 text-center text-md-start"
           >
             <h1>Create plan</h1>
@@ -107,7 +116,7 @@
           />
           <div class="parentWorks d-flex flex-column flex-md-row">
             <!-- worksCard1 -->
-            <div class="your_coffee d-flex flex-column">
+            <div data-aos="flip-left" class="your_coffee d-flex flex-column">
               <div
                 class="photNum img-fluid align-self-center align-self-md-start"
               >
@@ -124,7 +133,7 @@
               </p>
             </div>
             <!-- worksCard2 -->
-            <div class="the_frequency d-flex flex-column">
+            <div data-aos="flip-left" class="the_frequency d-flex flex-column">
               <div
                 class="photNum img-fluid align-self-center align-self-md-start"
               >
@@ -141,7 +150,7 @@
               </p>
             </div>
             <!-- worksCard3 -->
-            <div class="Receive_enjoy d-flex flex-column">
+            <div data-aos="flip-left" class="Receive_enjoy d-flex flex-column">
               <div
                 class="photNum img-fluid align-self-center align-self-md-start"
               >
@@ -165,20 +174,38 @@
       <div class="col-lg-11">
         <div class="The_end col-12 d-flex flex-column flex-lg-row">
           <!-- list group -->
-          <ul class="list-group list-group-flush lesta col-lg-3">
-            <li class="list-group-item d-flex gap-4 FrisstIt">
+          <ul
+            data-aos="flip-left"
+            class="list-group list-group-flush lesta col-lg-3"
+          >
+            <li
+              data-aos="zoom-in-up"
+              class="list-group-item d-flex gap-4 FrisstIt"
+            >
               <span class="num1st">01</span> Preferences
             </li>
-            <li class="list-group-item d-flex gap-4 lesst">
+            <li
+              data-aos="zoom-in-up"
+              class="list-group-item d-flex gap-4 lesst"
+            >
               <span class="NumLest">02</span> Bean Type
             </li>
-            <li class="list-group-item d-flex gap-4 lesst">
+            <li
+              data-aos="zoom-in-up"
+              class="list-group-item d-flex gap-4 lesst"
+            >
               <span class="NumLest">03</span> Quantity
             </li>
-            <li class="list-group-item d-flex gap-4 lesst">
+            <li
+              data-aos="zoom-in-up"
+              class="list-group-item d-flex gap-4 lesst"
+            >
               <span class="NumLest">04</span> Grind Option
             </li>
-            <li class="list-group-item d-flex gap-4 lesst">
+            <li
+              data-aos="zoom-in-up"
+              class="list-group-item d-flex gap-4 lesst"
+            >
               <span class="NumLest">05</span> Deliveries
             </li>
           </ul>
@@ -186,7 +213,11 @@
           <div class="accordion col-lg-8">
             <!-- id="accordionExample" -->
             <!-- QU_1 -->
-            <div class="accordion-item border-0 overflow-visible">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="accordion-item border-0 overflow-visible"
+            >
               <h2 class="accordion-header">
                 <button
                   class="accordion-button h2_accordion"
@@ -207,7 +238,7 @@
                 <div class="accordion-body">
                   <div class="Parent_cards d-flex flex-column flex-md-row">
                     <!-- Card 1 -->
-                    <div class="col-12 col-md-4 CARD_GRY" tabindex="0">
+                    <div data-aos="flip-up" class="col-12 col-md-4 CARD_GRY" tabindex="0">
                       <div>
                         <h2 class="FrisstIt">Capsule</h2>
                         <p class="Pcard">
@@ -216,7 +247,10 @@
                       </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GREEN" tabindex="0">
+                    <div data-aos="flip-up"
+                      class="col-12 col-md-4 d-flex flex-column CARD_GREEN"
+                      tabindex="0"
+                    >
                       <h2 class="FrisstIt text-light">Filter</h2>
                       <p class="PcradGreen">
                         For pour over or drip methods like Aeropress, Chemex,
@@ -224,7 +258,11 @@
                       </p>
                     </div>
                     <!-- Card 3 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div data-aos="flip-up"
+                    
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Espresso</h2>
                         <p class="Pcard">
@@ -238,7 +276,11 @@
               </div>
             </div>
             <!-- QU_2 -->
-            <div class="accordion-item border-0 overflow-visible">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="accordion-item border-0 overflow-visible"
+            >
               <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed h2_accordion"
@@ -259,7 +301,10 @@
                 <div class="accordion-body">
                   <div class="Parent_cards d-flex flex-column flex-md-row">
                     <!-- Card 1 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Single Origin</h2>
                         <p class="Pcard">
@@ -269,7 +314,10 @@
                       </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GREEN" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GREEN"
+                      tabindex="0"
+                    >
                       <h2 class="FrisstIt text-light">Decaf</h2>
                       <p class="PcradGreen">
                         Just like regular coffee, except the caffeine has been
@@ -277,7 +325,10 @@
                       </p>
                     </div>
                     <!-- Card 3 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Blended</h2>
                         <p class="Pcard">
@@ -291,7 +342,11 @@
               </div>
             </div>
             <!-- QU_3 -->
-            <div class="accordion-item border-0 overflow-visible">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="accordion-item border-0 overflow-visible"
+            >
               <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed h2_accordion"
@@ -312,7 +367,10 @@
                 <div class="accordion-body">
                   <div class="Parent_cards d-flex flex-column flex-md-row">
                     <!-- Card 1 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">250g</h2>
                         <p class="Pcard">
@@ -322,7 +380,10 @@
                       </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GREEN" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GREEN"
+                      tabindex="0"
+                    >
                       <h2 class="FrisstIt text-light">500g</h2>
                       <p class="PcradGreen">
                         Perfect option for a couple. Yields about 40 delectable
@@ -330,7 +391,10 @@
                       </p>
                     </div>
                     <!-- Card 3 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">1000g</h2>
                         <p class="Pcard">
@@ -344,7 +408,11 @@
               </div>
             </div>
             <!-- QU_4 -->
-            <div class="accordion-item border-0 overflow-visible">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="accordion-item border-0 overflow-visible"
+            >
               <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed h2_accordion"
@@ -365,7 +433,10 @@
                 <div class="accordion-body">
                   <div class="Parent_cards d-flex flex-column flex-md-row">
                     <!-- Card 1 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Wholebean</h2>
                         <p class="Pcard">
@@ -374,7 +445,10 @@
                       </div>
                     </div>
                     <!-- Card 2 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Filter</h2>
                         <p class="Pcard">
@@ -384,7 +458,10 @@
                       </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GREEN" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GREEN"
+                      tabindex="0"
+                    >
                       <h2 class="FrisstIt text-light">Cafetiére</h2>
                       <p class="PcradGreen">
                         Course ground beans specially suited for french press
@@ -396,7 +473,11 @@
               </div>
             </div>
             <!-- QU_5 -->
-            <div class="accordion-item border-0">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              class="accordion-item border-0"
+            >
               <h2 class="accordion-header">
                 <button
                   class="accordion-button collapsed h2_accordion"
@@ -417,14 +498,20 @@
                 <div class="accordion-body">
                   <div class="Parent_cards d-flex flex-column flex-md-row">
                     <!-- Card 1 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GREEN" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GREEN"
+                      tabindex="0"
+                    >
                       <h2 class="FrisstIt text-light">Every week</h2>
                       <p class="PcradGreen">
                         $7.20 per shipment. Includes free first-class shipping.
                       </p>
                     </div>
                     <!-- Card 2 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Every 2 weeks</h2>
                         <p class="Pcard">
@@ -433,7 +520,10 @@
                       </div>
                     </div>
                     <!-- Card 3 -->
-                    <div class="col-12 col-md-4 d-flex flex-column CARD_GRY" tabindex="0">
+                    <div
+                      class="col-12 col-md-4 d-flex flex-column CARD_GRY"
+                      tabindex="0"
+                    >
                       <div>
                         <h2 class="FrisstIt">Every month</h2>
                         <p class="Pcard">
@@ -450,7 +540,7 @@
       </div>
     </div>
     <!-- Order Summary -->
-    <div class="container d-flex justify-content-end ">
+    <div data-aos="flip-right" class="container d-flex justify-content-end">
       <div class="summaryBack col-lg-8">
         <p class="PSummary">Order Summary</p>
         <p class="Txt">
@@ -468,26 +558,57 @@
       </div>
     </div>
     <!-- Footer -->
-      <footer class="container p-2">
+    <footer
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      class="container p-2"
+    >
       <div class="foter">
         <div class="row">
           <div class="col-12 col-md-12">
-            <div class="parentfoot d-flex flex-column flex-md-row align-items-center justify-content-md-between">
-              <div class="LogoFoter"><img src="../Logo/Footer_Logo.png" alt="" /></div>
+            <div
+              class="parentfoot d-flex flex-column flex-md-row align-items-center justify-content-md-between"
+            >
+              <div class="LogoFoter">
+                <img src="../Logo/Footer_Logo.png" alt="" />
+              </div>
               <div class="Navy">
                 <a class="Anlink" href="../index_page/index.html">HOME</a>
                 <a class="Anlink" href="../About_us/Aboutus.html">ABOUT US</a>
                 <a class="Anlink" href="./subscribe.html">Create your plan</a>
               </div>
               <div class="social_icons">
-                <a class="Icon_HovER" href=""><i class="fa-brands fa-facebook-f" style="color:whitesmoke;"></i></a>
-                <a class="Icon_HovER" href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
-                <a class="Icon_HovER" href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                <a class="Icon_HovER" href=""
+                  ><i
+                    class="fa-brands fa-facebook-f"
+                    style="color: whitesmoke"
+                  ></i
+                ></a>
+                <a class="Icon_HovER" href=""
+                  ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+                ></a>
+                <a class="Icon_HovER" href=""
+                  ><i class="fa-brands fa-instagram" style="color: #ffffff"></i
+                ></a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
+    <!-- Aos.JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1500,
+        once: false,
+      });
+    </script>
   </body>
 </html>
